@@ -1,6 +1,6 @@
 # coding: utf-8
 """Tweet Client"""
-import _auth
+from ._auth import get_auth_session
 
 
 class Tweet:
@@ -14,10 +14,10 @@ class Tweet:
                  consumer_secret,
                  access_token,
                  access_token_secret):
-        self.twitter = _auth.get_auth_session(consumer_key,
-                                              consumer_secret,
-                                              access_token,
-                                              access_token_secret)
+        self.twitter = get_auth_session(consumer_key,
+                                        consumer_secret,
+                                        access_token,
+                                        access_token_secret)
 
     def tweet(self, msg):
         self.twitter.post(
