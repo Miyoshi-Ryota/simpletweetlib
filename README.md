@@ -1,3 +1,7 @@
+[![Downloads](https://pepy.tech/badge/simpletweetlib)](https://pepy.tech/project/simpletweetlib)
+[![Downloads](https://pepy.tech/badge/simpletweetlib/month)](https://pepy.tech/project/simpletweetlib/month)
+[![Downloads](https://pepy.tech/badge/simpletweetlib/week)](https://pepy.tech/project/simpletweetlib/week)
+
 # simple tweet library
 A quite simple and easy to use twitter library.
 
